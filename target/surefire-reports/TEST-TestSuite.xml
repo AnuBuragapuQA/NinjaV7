@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="154.648" tests="38" errors="0" skipped="8" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\anu11\myeclipse-workspace\NinjaV6\target\test-classes;C:\Users\anu11\myeclipse-workspace\NinjaV6\target\classes;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\anu11\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\anu11\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\anu11\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\anu11\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\anu11\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\anu11\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\anu11\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\anu11\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\anu11\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\anu11\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\anu11\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\anu11\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\anu11\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\anu11\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\anu11\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\anu11\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\anu11\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\anu11\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\anu11\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\anu11\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\anu11\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\anu11\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\anu11\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\anu11\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\anu11\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\anu11\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\anu11\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\anu11\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\anu11\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.3\log4j-slf4j2-impl-2.25.3.jar;"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\anu11\AppData\Local\Temp\surefire16375026863347631990\surefirebooter-20260111225034150_3.jar C:\Users\anu11\AppData\Local\Temp\surefire16375026863347631990 2026-01-11T22-50-33_905-jvmRun1 surefire-20260111225034150_1tmp surefire_0-20260111225034150_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\anu11\myeclipse-workspace\NinjaV6\target\test-classes;C:\Users\anu11\myeclipse-workspace\NinjaV6\target\classes;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-java\4.38.0\selenium-java-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-api\4.38.0\selenium-api-4.38.0.jar;C:\Users\anu11\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.38.0\selenium-chrome-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.38.0\selenium-chromium-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-json\4.38.0\selenium-json-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.38.0\selenium-manager-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v140\4.38.0\selenium-devtools-v140-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.38.0\selenium-devtools-v141-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.38.0\selenium-devtools-v142-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.38.0\selenium-edge-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.38.0\selenium-firefox-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-http\4.38.0\selenium-http-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.38.0\selenium-ie-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.38.0\selenium-remote-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\anu11\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\anu11\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\anu11\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\anu11\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-api\1.55.0\opentelemetry-api-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-context\1.55.0\opentelemetry-context-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-common\1.55.0\opentelemetry-common-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.55.0\opentelemetry-exporter-logging-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.55.0\opentelemetry-sdk-common-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.55.0\opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.55.0\opentelemetry-sdk-extension-autoconfigure-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.55.0\opentelemetry-sdk-trace-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.55.0\opentelemetry-sdk-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.55.0\opentelemetry-sdk-metrics-1.55.0.jar;C:\Users\anu11\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.55.0\opentelemetry-sdk-logs-1.55.0.jar;C:\Users\anu11\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-os\4.38.0\selenium-os-4.38.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.38.0\selenium-safari-driver-4.38.0.jar;C:\Users\anu11\.m2\repository\org\seleniumhq\selenium\selenium-support\4.38.0\selenium-support-4.38.0.jar;C:\Users\anu11\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\anu11\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\anu11\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\anu11\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\anu11\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\anu11\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\anu11\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\anu11\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\anu11\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\anu11\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\anu11\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\anu11\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\anu11\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\anu11\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\anu11\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\anu11\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\anu11\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\anu11\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\anu11\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\anu11\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\anu11\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\anu11\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\anu11\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\anu11\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.3\log4j-slf4j2-impl-2.25.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\anu11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\anu11\myeclipse-workspace\NinjaV6"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\anu11\AppData\Local\Temp\surefire16375026863347631990\surefirebooter-20260111225034150_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.29+8-LTS-387"/>
+    <property name="user.name" value="anu11"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\anu11\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\anu11\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.29"/>
+    <property name="user.dir" value="C:\Users\anu11\myeclipse-workspace\NinjaV6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;?C:\Users\anu11\Downloads\apache-maven-3.9.11-bin\bin;C:\Program Files\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;&quot;C:\Users\anu11\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11\bin&quot;;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.29+8-LTS-387"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testLaunchApplication" classname="testCases.TC01_LaunchApplication" time="0.117">
+    <system-err><![CDATA[2026-01-12T06:50:35.284016900Z main INFO Starting configuration XmlConfiguration[location=C:\Users\anu11\myeclipse-workspace\NinjaV6\target\test-classes\log4j2.xml, lastModified=2026-01-12T04:26:41.447Z]...
+2026-01-12T06:50:35.285493500Z main INFO Configuration XmlConfiguration[location=C:\Users\anu11\myeclipse-workspace\NinjaV6\target\test-classes\log4j2.xml, lastModified=2026-01-12T04:26:41.447Z] started.
+2026-01-12T06:50:35.288634400Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@6babf3bf...
+2026-01-12T06:50:35.289635300Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@6babf3bf stopped.
+Jan 11, 2026 10:50:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testLaunchApplication" classname="testCases.TC01_LaunchApplication" time="0.063">
+    <system-err><![CDATA[Jan 11, 2026 10:50:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+Jan 11, 2026 10:50:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testLaunchApplication" classname="testCases.TC01_LaunchApplication" time="0.045"/>
+  <testcase name="testAddToCart" classname="testCases.TC03_AddToCart" time="2.507">
+    <system-err><![CDATA[Jan 11, 2026 10:50:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testAddToCart" classname="testCases.TC03_AddToCart" time="0.614">
+    <system-err><![CDATA[Jan 11, 2026 10:51:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testAddToCart" classname="testCases.TC03_AddToCart" time="0.339"/>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="element not interactable&#10;  (Session info: MicrosoftEdge=143.0.3650.139)&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [2676a9f03d3757034b4166b5ee4fda36, clickElement {id=f.582291F5E0AD2C8B3E8B2E8FC957A176.d.2A1497B7B371EEDA6E55A3B12FAABC11.e.2029}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.139, fedcm:accounts: true, goog:processID: 6308, ms:edgeOptions: {debuggerAddress: localhost:49758}, msedge: {msedgedriverVersion: 143.0.3650.139 (30ed6d0ef65..., userDataDir: C:\Users\anu11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49758/devtoo..., se:cdpVersion: 143.0.3650.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (2676a9f03d3757034b4166b5ee4fda36)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 2676a9f03d3757034b4166b5ee4fda36"/>
+    <system-err><![CDATA[Jan 11, 2026 10:51:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="element not interactable&#10;  (Session info: chrome=143.0.7499.193)&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [11be501600bc542c64f801220f61791f, clickElement {id=f.EB6945C14BB29588DC856351F3E8128D.d.2416F09C6DB637B5AE8E87E8FFC23EEB.e.1434}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\anu11\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61264}, goog:processID: 48896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61264/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (11be501600bc542c64f801220f61791f)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 11be501600bc542c64f801220f61791f"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Login&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=143.0.3650.139)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [2676a9f03d3757034b4166b5ee4fda36, findElement {using=xpath, value=//a[normalize-space()=&apos;Login&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.139, fedcm:accounts: true, goog:processID: 6308, ms:edgeOptions: {debuggerAddress: localhost:49758}, msedge: {msedgedriverVersion: 143.0.3650.139 (30ed6d0ef65..., userDataDir: C:\Users\anu11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49758/devtoo..., se:cdpVersion: 143.0.3650.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2676a9f03d3757034b4166b5ee4fda36"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Login&apos;]&quot;}&#10;  (Session info: chrome=143.0.7499.193)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [11be501600bc542c64f801220f61791f, findElement {using=xpath, value=//a[normalize-space()=&apos;Login&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\anu11\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61264}, goog:processID: 48896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61264/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11be501600bc542c64f801220f61791f"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Element &lt;a href=&quot;https://www.cloudberrystore.services/index.php?route=product/product&amp;language=en-gb&amp;product_id=47&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [77b52f62-d5f6-4846-8e61-3cf68f63d2c6, clickElement {id=ed7214f7-be23-4cae-a042-5989d0821b18}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63016, moz:profile: C:\Users\anu11\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Element: [[FirefoxDriver: firefox on windows (77b52f62-d5f6-4846-8e61-3cf68f63d2c6)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 77b52f62-d5f6-4846-8e61-3cf68f63d2c6"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="5.755">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Login&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=143.0.3650.139)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [2676a9f03d3757034b4166b5ee4fda36, findElement {using=xpath, value=//a[normalize-space()=&apos;Login&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.139, fedcm:accounts: true, goog:processID: 6308, ms:edgeOptions: {debuggerAddress: localhost:49758}, msedge: {msedgedriverVersion: 143.0.3650.139 (30ed6d0ef65..., userDataDir: C:\Users\anu11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49758/devtoo..., se:cdpVersion: 143.0.3650.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2676a9f03d3757034b4166b5ee4fda36" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=143.0.3650.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.29'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2676a9f03d3757034b4166b5ee4fda36, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.139, fedcm:accounts: true, goog:processID: 6308, ms:edgeOptions: {debuggerAddress: localhost:49758}, msedge: {msedgedriverVersion: 143.0.3650.139 (30ed6d0ef65..., userDataDir: C:\Users\anu11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49758/devtoo..., se:cdpVersion: 143.0.3650.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2676a9f03d3757034b4166b5ee4fda36
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at PageObjects.HomePage.goToLogin(HomePage.java:41)
+	at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.9">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Login&apos;]&quot;}&#10;  (Session info: chrome=143.0.7499.193)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [11be501600bc542c64f801220f61791f, findElement {using=xpath, value=//a[normalize-space()=&apos;Login&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\anu11\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61264}, goog:processID: 48896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61264/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11be501600bc542c64f801220f61791f" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.29'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11be501600bc542c64f801220f61791f, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\anu11\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61264}, goog:processID: 48896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61264/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11be501600bc542c64f801220f61791f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at PageObjects.HomePage.goToLogin(HomePage.java:41)
+	at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+    <system-err><![CDATA[Jan 11, 2026 10:51:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Unable to locate element: //a[normalize-space()=&apos;Login&apos;]&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [77b52f62-d5f6-4846-8e61-3cf68f63d2c6, findElement {using=xpath, value=//a[normalize-space()=&apos;Login&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63016, moz:profile: C:\Users\anu11\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 77b52f62-d5f6-4846-8e61-3cf68f63d2c6"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="6.785">
+    <failure message="Unable to locate element: //a[normalize-space()=&apos;Login&apos;]&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [77b52f62-d5f6-4846-8e61-3cf68f63d2c6, findElement {using=xpath, value=//a[normalize-space()=&apos;Login&apos;]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63016, moz:profile: C:\Users\anu11\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 77b52f62-d5f6-4846-8e61-3cf68f63d2c6" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.29'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [77b52f62-d5f6-4846-8e61-3cf68f63d2c6, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63016, moz:profile: C:\Users\anu11\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 77b52f62-d5f6-4846-8e61-3cf68f63d2c6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at PageObjects.HomePage.goToLogin(HomePage.java:41)
+	at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+  </testcase>
+  <testcase name="testAddAffiliate" classname="testCases.TC06_AddAffiliate" time="2.409">
+    <system-err><![CDATA[Jan 11, 2026 10:51:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testAddAffiliate" classname="testCases.TC06_AddAffiliate" time="6.102">
+    <system-err><![CDATA[Jan 11, 2026 10:51:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testAddAffiliate" classname="testCases.TC06_AddAffiliate" time="5.489">
+    <system-err><![CDATA[Jan 11, 2026 10:52:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testLogin[smitasharma.qa@gmail.com, ss*QA123](1)" classname="testCases.TC02_Login" time="2.423">
+    <system-err><![CDATA[Jan 11, 2026 10:51:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testLogin[smitasharma.qa@gmail.com, ss*QA123](1)" classname="testCases.TC02_Login" time="0.564"/>
+  <testcase name="testLogin[smitasharma.qa@gmail.com, ss*QA123](1)" classname="testCases.TC02_Login" time="1.865"/>
+  <testcase name="testLogin[nona@yahoo.com, QWER!@#$](2)" classname="testCases.TC02_Login" time="2.896"/>
+  <testcase name="testLogin[nona@yahoo.com, QWER!@#$](2)" classname="testCases.TC02_Login" time="0.315"/>
+  <testcase name="testLogin[nona@yahoo.com, QWER!@#$](2)" classname="testCases.TC02_Login" time="1.17"/>
+  <testcase name="testLogin[sid@cloudberry.services, Test123](3)" classname="testCases.TC02_Login" time="2.396"/>
+  <testcase name="testLogin[sid@cloudberry.services, Test123](3)" classname="testCases.TC02_Login" time="1.144"/>
+  <testcase name="testLogin[sid@cloudberry.services, Test123](3)" classname="testCases.TC02_Login" time="2.092"/>
+  <testcase name="testLogin[apushedwoman@gmail.com, password123](4)" classname="testCases.TC02_Login" time="2.059"/>
+  <testcase name="testLogin[apushedwoman@gmail.com, password123](4)" classname="testCases.TC02_Login" time="3.269"/>
+  <testcase name="testLogin[apushedwoman@gmail.com, password123](4)" classname="testCases.TC02_Login" time="0.739"/>
+  <testcase name="testLogin[hichamkhachiai@gmail.com, hicham123](5)" classname="testCases.TC02_Login" time="0.587"/>
+  <testcase name="testLogin[hichamkhachiai@gmail.com, hicham123](5)" classname="testCases.TC02_Login" time="1.519"/>
+  <testcase name="testLogin[hichamkhachiai@gmail.com, hicham123](5)" classname="testCases.TC02_Login" time="1.79"/>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="13.979">
+    <system-err><![CDATA[Jan 11, 2026 10:52:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 143, returning the closest version; found: 142; Please update to a Selenium version that supports CDP version 143
+]]></system-err>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//strong[normalize-space()=&apos;login page&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=143.0.3650.139)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [4b40345b32048d13d9e17bb4a7765564, findElement {using=xpath, value=//strong[normalize-space()=&apos;login page&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.139, fedcm:accounts: true, goog:processID: 55712, ms:edgeOptions: {debuggerAddress: localhost:57249}, msedge: {msedgedriverVersion: 143.0.3650.139 (30ed6d0ef65..., userDataDir: C:\Users\anu11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57249/devtoo..., se:cdpVersion: 143.0.3650.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4b40345b32048d13d9e17bb4a7765564"/>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Laptops &amp; Notebooks&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=143.0.3650.139)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [4b40345b32048d13d9e17bb4a7765564, findElement {using=xpath, value=//a[normalize-space()=&apos;Laptops &amp; Notebooks&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.139, fedcm:accounts: true, goog:processID: 55712, ms:edgeOptions: {debuggerAddress: localhost:57249}, msedge: {msedgedriverVersion: 143.0.3650.139 (30ed6d0ef65..., userDataDir: C:\Users\anu11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57249/devtoo..., se:cdpVersion: 143.0.3650.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4b40345b32048d13d9e17bb4a7765564"/>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="8.009"/>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="8.033">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Laptops &amp; Notebooks&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=143.0.3650.139)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.29&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [4b40345b32048d13d9e17bb4a7765564, findElement {using=xpath, value=//a[normalize-space()=&apos;Laptops &amp; Notebooks&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.139, fedcm:accounts: true, goog:processID: 55712, ms:edgeOptions: {debuggerAddress: localhost:57249}, msedge: {msedgedriverVersion: 143.0.3650.139 (30ed6d0ef65..., userDataDir: C:\Users\anu11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57249/devtoo..., se:cdpVersion: 143.0.3650.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4b40345b32048d13d9e17bb4a7765564" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Laptops & Notebooks']"}
+  (Session info: MicrosoftEdge=143.0.3650.139)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.29'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4b40345b32048d13d9e17bb4a7765564, findElement {using=xpath, value=//a[normalize-space()='Laptops & Notebooks']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.139, fedcm:accounts: true, goog:processID: 55712, ms:edgeOptions: {debuggerAddress: localhost:57249}, msedge: {msedgedriverVersion: 143.0.3650.139 (30ed6d0ef65..., userDataDir: C:\Users\anu11\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57249/devtoo..., se:cdpVersion: 143.0.3650.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b40345b32048d13d9e17bb4a7765564
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:486)
+	at PageObjects.CategoryPage.clickLaptopsAndNotebooks(CategoryPage.java:28)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]></failure>
+  </testcase>
+</testsuite>
